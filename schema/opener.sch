@@ -34,12 +34,12 @@ refdes=R5
 T 51900 43800 5 10 1 1 0 0 1
 value=10k
 }
-C 47700 45200 1 0 0 ATtiny13_2.sym
+C 47700 45200 1 0 0 ATtiny13.sym
 {
 T 50000 47500 5 10 1 1 0 6 1
 refdes=U2
 T 48000 47650 5 10 0 0 0 0 1
-device=ATtiny12
+device=ATtiny13
 T 48000 47850 5 10 0 0 0 0 1
 footprint=DIP8
 }
@@ -100,7 +100,7 @@ device=RESISTOR
 T 50900 44800 5 10 1 1 90 0 1
 refdes=R4
 T 50900 45300 5 10 1 1 90 0 1
-value=1k
+value=100k
 }
 N 41500 47100 41500 47700 4
 N 42300 45500 47700 45500 4
