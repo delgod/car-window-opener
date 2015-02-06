@@ -1,6 +1,6 @@
 U1       - L7805ABV,             http://www.st.com/web/en/resource/technical/document/datasheet/CD00000444.pdf
 U2       - ATtiny13A-PU,         http://www.atmel.com/Images/doc8126.pdf
-Q1       - IRFZ48N PBF,          http://www.irf.com/product-info/datasheets/data/irfz48npbf.pdf
+Q1       - IRF9540NPBF,          http://www.irf.com/product-info/datasheets/data/irf9540npbf.pdf
 D1       - BZX55-C4V7,           http://www.rcscomponents.kiev.ua/datasheets/BZX55.pdf
 C1,C3    - 0,33uF 50V 10% F=5mm, http://www.hitano.com.tw/download/TCR_dipped_tantalum_130131.pdf
 C2       - 100uF 20V ERS 8x12mm, http://www.hitano.com.tw/download/ERS_20140826.pdf
