@@ -1,9 +1,9 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define VD_ON         PORTB |= _BV(PB4)         // enable engine
-#define VD_OFF        PORTB &= ~_BV(PB4)        // disable engine
-#define BUTTON_STATE  bit_is_clear( PINB, PB3 ) // is button pressed?
+#define ENG_ON         PORTB |= _BV(PB4)         // enable engine
+#define ENG_OFF        PORTB &= ~_BV(PB4)        // disable engine
+#define BUTTON_STATE  bit_is_set( PINB, PB3 )   // is button pressed?
 
 const int pull_delay       = 50;
 const int support_delay    = 3000;
@@ -27,11 +27,11 @@ int main(void) {
     while (1) {
         if (BUTTON_STATE) {         // button is pressed now
             if ( !prev_state ) {    // on pressing
-                VD_ON;
+                ENG_ON;
             }
             if ( press_time > press_limit ) {    // protect engine
                 press_time = quick_press_time;
-                VD_OFF;
+                ENG_OFF;
             }
             press_time += pull_delay;
         }
@@ -40,7 +40,7 @@ int main(void) {
                 smart_sleep(support_delay);
             }
             press_time = 0;
-            VD_OFF;
+            ENG_OFF;
         }
 
         prev_state = BUTTON_STATE;
