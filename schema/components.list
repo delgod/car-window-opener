@@ -1,10 +1,10 @@
-U1       - L7805ABV,             http://www.st.com/web/en/resource/technical/document/datasheet/CD00000444.pdf
-U2       - ATtiny13A-PU,         http://www.atmel.com/Images/doc8126.pdf
-Q1       - IRF9540NPBF,          http://www.irf.com/product-info/datasheets/data/irf9540npbf.pdf
-D1       - BZX55-C4V7,           http://www.rcscomponents.kiev.ua/datasheets/BZX55.pdf
-C1,C3    - 0,33uF 50V 10% F=5mm, http://www.hitano.com.tw/download/TCR_dipped_tantalum_130131.pdf
-C2       - 100uF 20V ERS 8x12mm, http://www.hitano.com.tw/download/ERS_20140826.pdf
-C4       - 330uF 10V ERS 8x12mm, http://www.hitano.com.tw/download/ERS_20140826.pdf
-R1,R2,R5 - 10 kOhm 5% 0,25W
-R4       - 100 kOhm 5% 0,25W,    http://www.cinetech.com.tw/upload/2014/07/20140729154407.pdf
-R3       - 
+U1          - L7805ABV,             http://www.st.com/web/en/resource/technical/document/datasheet/CD00000444.pdf
+U2          - ATtiny13A-PU,         http://www.atmel.com/Images/doc8126.pdf
+Q1          - BC547C,               http://pdf.datasheetcatalog.com/datasheet/philips/BC546_547_3.pdf
+Q2          - IRF5305PBF,           http://www.irf.com/product-info/datasheets/data/irf5305pbf.pdf
+D1          - BZX55-C4V7,           http://www.rcscomponents.kiev.ua/datasheets/BZX55.pdf
+C1,C3       - 0,33uF 50V 10% F=5mm, http://www.hitano.com.tw/download/TCR_dipped_tantalum_130131.pdf
+C2          - 100uF 20V ERS 8x12mm, http://www.hitano.com.tw/download/ERS_20140826.pdf
+C4          - 330uF 10V ERS 8x12mm, http://www.hitano.com.tw/download/ERS_20140826.pdf
+R1,R2,R3,R4 - 10 kOhm 5% 0,25W
+R5,R6       - 1 kOhm 5% 0,25W,      http://www.cinetech.com.tw/upload/2014/07/20140729154407.pdf
